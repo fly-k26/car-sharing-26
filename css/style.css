@@ -10,3 +10,51 @@
     --dark-black-color: #28272C;
     /* TODO: add missing colors */
 }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
+.header__wrapper {
+    background-color: var(--gray-color);
+    position: relative;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 100px;
+
+}
+.header__logo {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 35px;
+}
+.header__logo img {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.primary { color: var(--primary-color); }
+.header__nav, .header__logo {
+    display: flex;
+    align-items: center;
+}
+.header__nav__list {
+    display: flex;
+    gap: 50px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+.header__nav__list__item { padding: 40px 33px;}
+.banner {
+    background-image: url('../images/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    margin-top: -100px;
+}
