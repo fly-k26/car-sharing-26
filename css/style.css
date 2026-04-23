@@ -67,12 +67,18 @@ body {
 .banner h1 {
     color: var(--white-color);
     text-transform: uppercase;
-    font: normal normal 900 90px/90px Nunito Sans;
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 900;
+    font-family: 'Nunito Sans', sans-serif;
     text-shadow: 0 3px 6px var(--black-color-transparent)
 }
 .banner p {
     text-align: center;
-    font: normal normal bold 16px/22px Nunito Sans;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
     color: var(--white-color);
     max-width: 900px;
 }
@@ -104,13 +110,17 @@ body {
     width: 50px;
     height: 3px;
     background: var(--primary-color);
-    box-shadow: 0px 1px 6px #FF00004D;
+    box-shadow: 0 1px 6px #FF00004D;
     border-radius: 8px;
 }
+
 .section-title {
     text-align: left;
-    font: normal normal bold 35px/47px Nunito Sans;
-    letter-spacing: 0px;
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0;
     color: #000000;
     opacity: 1;
     text-transform: uppercase;
@@ -132,20 +142,29 @@ body {
 }
 
 .blog__card h3 {
-    font: normal normal normal 19px/26px Nunito Sans;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif;
     color: #6A6A6A;
     margin: 15px 0 10px;
 }
 
 .blog__card p {
-    font: normal normal 300 14px/19px Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
     color: #6A6A6A;
     margin-bottom: 15px;
 }
 
 .blog__card .btn {
     padding: 10px 20px;
-    font: normal normal bold 14px/19px Nunito Sans;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
     border-radius: 40px;
 }
 
