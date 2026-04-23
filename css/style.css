@@ -223,3 +223,78 @@ body {
 .btn {
     padding: 10px 20px;
 }
+
+/* CONTACT */
+.contact__wrapper {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+.contact__form input, .contact__form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    border: 1px solid #D1D1D1;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contact__form input:focus, .contact__form textarea:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+.contact__form textarea {
+    min-height: 120px;
+    resize: none;
+}
+.contact__form button {
+    background: var(--white-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    align-self: flex-end;
+    padding: 10px 40px;
+    box-shadow: 0 3px 6px #FF00004D;
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contact .section-title {
+    font-size: 35px;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contact__checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 10px;
+    line-height: 14px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+.contact__checkbox input {
+    width: 14px;
+    height: 14px;
+    margin: 2px 0 0 0;
+    flex-shrink: 0;
+}
+.checkbox-text {
+    display: block;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+}
+.contact__checkbox input {
+    accent-color: var(--primary-color);
+}
