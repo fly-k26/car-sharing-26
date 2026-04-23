@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>car sharing</title>
+    <title>Car sharing</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -11,31 +11,71 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="header__wrapper">
-        <header class="header container">
-            <div class="header__logo">
-                <img class="header__logo__img" src="images/logo_footer.svg" alt="">
-                <span class="primary">CAR</span> SHARING
-            </div> <!-- e: header__logo -->
-            <nav class="header__nav">
-                <ul class="header__nav__list">
-                    <li class="header__nav__list--item">Home</li>
-                    <li class="header__nav__list--item">Blog</li>
-                    <li class="header__nav__list--item">Service</li>
-                    <li class="header__nav__list--item">Contact</li>
-                </ul>
-            </nav> <!-- e: header__nav -->
-        </header> <!-- e: header -->
-    </div>
-    <div class="overlay">
-        <div class="banner ">
-            <h1>Car sharing</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div class="banner__buttons">
-                <button class="btn btn-large btn-primary">Share a car</button>
-                <button class="btn btn-large btn-secondary">Key features</button>
-            </div>
+<!-- HEADER -->
+<div class="header__wrapper">
+    <header class="header container">
+        <!-- Header logo -->
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/logo_footer.svg" alt="">
+            <span class="primary">CAR</span> SHARING
+        </div>
+        <!--Header nav -->
+        <nav class="header__nav">
+            <ul class="header__nav__list">
+                <li class="header__nav__list--item">Home</li>
+                <li class="header__nav__list--item">Blog</li>
+                <li class="header__nav__list--item">Service</li>
+                <li class="header__nav__list--item">Contact</li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<!-- Overlay -->
+<div class="overlay">
+    <div class="banner ">
+        <h1>Car sharing</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="banner__buttons">
+            <button class="btn btn-large btn-primary">Share a car</button>
+            <button class="btn btn-large btn-secondary">Key features</button>
         </div>
     </div>
+</div>
+<!-- BLOG -->
+<section class="blog container">
+
+    <div class="section-header">
+        <span class="line"></span>
+        <h2 class="section-title">Blog</h2>
+        <span class="line"></span>
+    </div>
+
+    <div class="blog__grid">
+
+        <div class="blog__card">
+            <img src="images/photo1.png" alt="">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn btn-primary">Read more</button>
+        </div>
+
+        <div class="blog__card">
+            <img src="images/photo2.png" alt="">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn btn-primary">Read more</button>
+        </div>
+
+        <div class="blog__card">
+            <img src="images/photo3.png" alt="">
+            <h3>LOREM IPSUM SIT DOLOR</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn btn-primary">Read more</button>
+        </div>
+
+    </div>
+</section>
+
+
 </body>
 </html>
