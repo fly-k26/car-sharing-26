@@ -22,16 +22,16 @@
         <!--Header nav -->
         <nav class="header__nav">
             <ul class="header__nav__list">
-                <li class="header__nav__list--item">Home</li>
-                <li class="header__nav__list--item">Blog</li>
-                <li class="header__nav__list--item">Service</li>
-                <li class="header__nav__list--item">Contact</li>
+                <li class="header__nav__list--item"><a href="#home">Home</a></li>
+                <li class="header__nav__list--item"><a href="#blog">Blog</a></li>
+                <li class="header__nav__list--item"><a href="#service">Service</a></li>
+                <li class="header__nav__list--item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 </div>
 <!-- Overlay -->
-<div class="overlay">
+<div id="home" class="overlay">
     <div class="banner ">
         <h1>Car sharing</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -42,7 +42,7 @@
     </div>
 </div>
 <!-- BLOG -->
-<section class="blog container">
+<section id="blog" class="blog container">
 
     <div class="section-header">
         <span class="line"></span>
@@ -76,7 +76,7 @@
     </div>
 </section>
 <!-- SERVICE -->
-<section class="service">
+<section id="service" class="service">
     <div class="container">
 
         <div class="section-header">
@@ -119,8 +119,8 @@
 
     </div>
 </section>
-/* CONTACT */
-<section class="contact container">
+<!-- CONTACT -->
+<section id="contact" class="contact container">
 
     <div class="section-header">
         <span class="line"></span>
@@ -153,6 +153,38 @@
     </div>
 
 </section>
+<footer class="footer">
+    <div class="container footer__content">
+
+        <div class="footer__logo">
+            <img src="images/logo_footer.svg" alt="">
+            <span><span class="primary">CAR</span> SHARING</span>
+        </div>
+
+        <div class="footer__nav">
+
+            <ul class="footer__list">
+                <li><a href="#">Home page</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">share regulation</a></li>
+            </ul>
+
+            <ul class="footer__list">
+                <li><a href="#">Price</a></li>
+                <li><a href="#">Our fleet</a></li>
+                <li><a href="#">Our clients</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="footer__copy">
+            Copyright © Coders Lab
+        </div>
+
+    </div>
+</footer>
 
 </body>
 </html>
