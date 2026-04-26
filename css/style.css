@@ -368,3 +368,33 @@ body {
 .footer__list a:hover {
     color: var(--primary-color);
 }
+
+/* SCROLL ARROW */
+.scroll-down {
+    position: relative;
+    top: -30px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 55px;
+    height: 55px;
+
+    background: var(--primary-color);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 3px 6px var(--primary-color--transparent);
+    z-index: 10;
+}
+.scroll-down img {
+    width: 18px;
+    filter: brightness(0) invert(1);
+}
+.scroll-down:hover {
+    transform: translate(-50%) scale(1.1);
+    transition: 0.3s;
+}
